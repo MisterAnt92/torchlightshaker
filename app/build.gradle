@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+// Put Fabric plugin after Android plugin
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+
+    def INTEGER = "Integer"
+    def STRING = "String"
+    def STRING_RES = "string"
+    def BOOLEAN = "boolean"
+    def TRUE = "true"
+    def FALSE = "false"
+    def EMPTY_STRING = "\"\""
+
+    def SHOW_TOAST = "SHOW_TOAST"
+    def ENABLE_LOG = "ENABLE_LOG"
+
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId 'com.sformica.torchlight.shaker'
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 9
+        versionName "1.6 (Build 9)"
+    }
+
+    buildTypes {
+
+        debug {
+            applicationIdSuffix ".debug"
+            buildConfigField BOOLEAN, SHOW_TOAST, TRUE
+            buildConfigField BOOLEAN, ENABLE_LOG, TRUE
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            buildConfigField BOOLEAN, SHOW_TOAST, FALSE
+            buildConfigField BOOLEAN, ENABLE_LOG, FALSE
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    //flavorDimensions "Released", "Debugging"
+    productFlavors {
+        /*product{
+            dimension "Released"
+        }
+        product{
+            dimension "Debugging"
+        }*/
+    }
+}
+
+dependencies {
+    // Shake listener
+    implementation 'com.squareup:seismic:1.0.2'
+    // Picasso - Load images
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    // Butterkinfe
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //Progress CustomBar
+    implementation 'com.github.imaNNeoFighT:StepBarView:1.0.3.1'
+    // EventBus
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    // Big G library
+    androidTestImplementation 'com.android.support:support-annotations:27.1.1'
+    implementation 'com.android.support:support-compat:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.4@aar') {
+        transitive = true;
+    }
+}

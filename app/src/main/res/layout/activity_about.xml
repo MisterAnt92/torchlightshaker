@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="1"
+        tools:context=".ui.AboutActivity">
+
+        <ImageView
+            android:id="@+id/iconDev"
+            android:layout_width="wrap_content"
+            android:minWidth="@dimen/ant_img_min_width"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/ant_img_min_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/about_page_margin" />
+
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/about_page_margin"
+            android:text="@string/developer_description" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_torch"/>
+
+            <TextView
+                android:id="@+id/textFieldAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/about_page_margin_small"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/textFieldAppVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/about_page_margin_small"
+                android:text="@string/version_number" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textFieldEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/developer_email" />
+
+            <TextView
+                android:id="@+id/link_linkdn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/about_page_margin_small"
+                android:gravity="center"
+                android:autoLink="web"
+                android:text="@string/developer_linkedn"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/link_playstore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/about_page_margin_small"
+                android:gravity="center"
+                android:autoLink="web"
+                android:text="@string/developer_link_playstore"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Torchlight</string>
+    <string name="no_flash">Entschuldigen Sie,aber diesen Gerät hat kein Blitzlicht.</string>
+    <string name="description">Um das licht ein-und auszuschalten,drücken den knopf aber oder schütteln das Gerät.</string>
+    <string name="pause">Deaktivieren die Applikation beinn Standby Modus.</string>
+    <string name="action_settings">Einstellingen</string>
+    <string name="app_name_long">Privacy Friendly Torchlight</string>
+    <string name="okay">Bestätigung</string>
+    <string name="viewhelp">View Help</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">Info</string>
+    <string name="welcome">Willkommen</string>
+    <string name="navigation_drawer_open" translatable="false">Einschalten</string>
+    <string name="navigation_drawer_close" translatable="false">Ausschalten</string>
+    <!--###HELP###-->
+    <string name="help">Generelle Informationen</string>
+    <string name="help_privacy_heading">Privacy Info</string>
+    <string name="help_permissions_heading">Genehmigung Kamera</string>
+    <string name="help_permissions_description">Die Genehmigung Kameras ist nötig, um. das licht der Kamera zu Kontrollieren.Wenn die Genehmigun nicht gegeben wird, dann die Applikation kann nicht gut funktionieren.</string>
+    <string name="help_intro">Dies ist eine einfache Application, um das licht zu Kontrollieren. Berühren den Knopf in der Homepage, um das licht ein- und auszuschalten. Schütteln Sie das Gerät oder benuutzer Widget.</string>
+    <!--###ABOUT###-->
+    <string name="about">About</string>
+    <string name="welcome_text">Klicken Sie auf die Taschenlampe, um das Licht Ihres Telefons ein- und auszuschalten.</string>
+    <string name="description_start_boot">Aktivieren Sie Torchlight beim Booten</string>
+    <string name="widget_added">Widget added in home screen</string>
+    <string name="widget_removed">Widget removed from home screen</string>
+    <string name="cannot_use_this">Can not use flashlight without access to the camera.</string>
+    <string name="about_developer">Über Entwickler:</string>
+    <string name="developer_description">Entwickelt und gewartet von MisterAnt.</string>
+    <string name="developer_link_playstore" translatable="false">https://play.google.com/store/search?q=misterant&amp;hl=it</string>
+    <string name="developer_linkedn" translatable="false">https://www.linkedin.com/in/simone-formica-4b464b114/</string>
+    <string name="developer_email" translatable="false">E-mail: misterant.developer@gmail.com</string>
+    <string name="sensitivity_lv">Shake Empfindlichkeitsstufe</string>
+    <string name="shake_enabled">Schütteln aktiviert.</string>
+    <string name="blink_mode">Blinkmodus</string>
+</resources>

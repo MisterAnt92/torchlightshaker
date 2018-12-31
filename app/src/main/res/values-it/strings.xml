@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TorchLight</string>
+    <string name="no_flash">Spiacente ma questo dispositivo non ha il flash.</string>
+    <string name="description">Per accendere / spegnere la luce, premere il pulsante sopra o scuotere il dispositivo.</string>
+    <string name="pause">Disattiva l\'app mettendola in modalità standby</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="okay">Conferma</string>
+    <string name="viewhelp">View Help</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">Info</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="navigation_drawer_open" translatable="false">open</string>
+    <string name="navigation_drawer_close" translatable="false">close</string>
+    <!--###HELP###-->
+    <string name="help">Generale</string>
+    <string name="help_privacy_heading">Privacy Info</string>
+    <string name="help_permissions_heading">Permessi camera</string>
+    <string name="help_permissions_description">L\'autorizzazione della camera è necessaria per controllare la torcia della telecamera. Se questa autorizzazione non viene fornita, l\'app non funzionerà correttamente.</string>
+    <string name="help_intro">Questa è un\'applicazione semplice per controllare la torcia del telefono. Tocca il pulsante nella schermata iniziale per accendere e spegnere la torcia. Scuoti il ​​tuo dispositivo o, se preferisci, usa il widget.</string>
+    <!--###ABOUT###-->
+    <string name="about">About</string>
+    <string name="welcome_text">Fare clic sul pulsante torcia per attivare e disattivare la luce del telefono o scuotere il dispositivo.</string>
+    <string name="description_start_boot">Attiva TorchLight all\'avvio del dispositivo</string>
+    <string name="widget_added">Widget aggiunto alla schermata Home</string>
+    <string name="widget_removed">Widget rimosso dalla schermata Home</string>
+    <string name="cannot_use_this">Non è possibile utilizzare la torcia senza accesso alla fotocamera.</string>
+    <string name="about_developer">Info sviluppatore:</string>
+    <string name="developer_description">Sviluppata e mantenuta da MisterAnt.</string>
+    <string name="developer_link_playstore" translatable="false">https://play.google.com/store/search?q=misterant&amp;hl=it</string>
+    <string name="developer_linkedn" translatable="false">https://www.linkedin.com/in/simone-formica-4b464b114/</string>
+    <string name="developer_email" translatable="false">E-mail: misterant.developer@gmail.com</string>
+    <string name="sensitivity_lv">Livello sensibilità shake</string>
+    <string name="shake_enabled">Shake abilitato.</string>
+    <string name="blink_mode">Modalità lampeggio</string>
+</resources>

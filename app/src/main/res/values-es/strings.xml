@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Torchlight</string>
+    <string name="no_flash">Disculpe, pero este aparato no tiene flash.</string>
+    <string name="description">Para accender/apagar la luz,apretar el botón arriba o agitar el aparato.</string>
+    <string name="pause">Para desaclivar la aplicación ponerla en modo de espera</string>
+    <string name="action_settings">Configuración</string>
+    <string name="app_name_long">Privacy Friendly Torchlight</string>
+    <string name="okay">Confirma</string>
+    <string name="viewhelp">View Help</string>
+    <string name="action_help">Informaciones</string>
+    <string name="action_about">About</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="navigation_drawer_open" translatable="false">Abrir</string>
+    <string name="navigation_drawer_close" translatable="false">Cerrar</string>
+    <!--###HELP###-->
+    <string name="help">Géneral</string>
+    <string name="help_privacy_heading">Privacy Info</string>
+    <string name="help_permissions_heading">Autorización cámera</string>
+    <string name="help_permissions_description">La autorizació de la cámera es necesaria para controlar la luz de la cámera.Apreta el botón de la página inicial para accender y apagar la luz.Agita tu aparato o, si prefieres,utiliza el widget.</string>
+    <string name="help_intro">Esta es una aplicación senalla para controlar le luz de la cámera.Aprete el botón de la página inicial para accender y apagar la luz.Agita tu aparato o, si prefieres, utiliza el widget.</string>
+    <!--###ABOUT###-->
+    <string name="about">About</string>
+    <string name="welcome_text">Hacer clic sabre el botón luz para activar/desactivar la luz del móvil o aigtar el aparato.</string>
+    <string name="description_start_boot">Activar Torchlight ala puesta en marcha del aparato</string>
+    <string name="widget_added">Widget añadida  a la página de inicio</string>
+    <string name="widget_removed">Widget eliminado de la página de inicio</string>
+    <string name="cannot_use_this">No es posible utilizar la luz sin el acesso a la cámera.</string>
+    <string name="about_developer">Informaciones sobre el programador:</string>
+    <string name="developer_description">Desarrollado y mantenido por MisterAnt.</string>
+    <string name="developer_link_playstore" translatable="false">https://play.google.com/store/search?q=misterant&amp;hl=it</string>
+    <string name="developer_linkedn" translatable="false">https://www.linkedin.com/in/simone-formica-4b464b114/</string>
+    <string name="developer_email" translatable="false">E-mail: misterant.developer@gmail.com</string>
+    <string name="sensitivity_lv">Nivel de sensibilidad de sacudida</string>
+    <string name="shake_enabled">Shake habilitado.</string>
+    <string name="blink_mode">Modo intermitente</string>
+</resources>

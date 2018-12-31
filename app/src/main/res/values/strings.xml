@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Torchlight</string>
+    <string name="no_flash">Sorry, but this device has no flashlight.</string>
+    <string name="description">To switch on/off the light,press the button above or shake the device.</string>
+    <string name="pause">Disable the application by inserting the standby mode.</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name_long">Privacy Friendly Torchlight</string>
+    <string name="okay">Confirm</string>
+    <string name="viewhelp">View Help</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">Info</string>
+    <string name="welcome">Welcome</string>
+    <string name="navigation_drawer_open" translatable="false">Open</string>
+    <string name="navigation_drawer_close" translatable="false">Close</string>
+    <!--###HELP###-->
+    <string name="help">General settings</string>
+    <string name="help_privacy_heading">Privacy information</string>
+    <string name="help_permissions_heading">Camera authorization</string>
+    <string name="help_permissions_description">Camera authorization is necessary to control the flash of the camera.If this authorization is not given,the application won\'t work properly.</string>
+    <string name="help_intro">This is an easy application to control the torch of the smartphone.Touch the button on the Homepage to switch on and off the torch.Shake your device or,if you prefer,use the widget.</string>
+    <!--###ABOUT###-->
+    <string name="about">About</string>
+    <string name="version_number">Version 1.6</string>
+    <string name="welcome_text">Click on the torch button to enable or disable the flashlight or shake the device.</string>
+    <string name="description_start_boot">Enable Torchlight when you switch on the device.</string>
+    <string name="widget_added">Widget added to the Homepage.</string>
+    <string name="widget_removed">Widget eliminated from the Homepage.</string>
+    <string name="cannot_use_this">It is not possible to use the torch without accessing the camera.</string>
+    <string name="about_developer">Info developer:</string>
+    <string name="developer_description">Developed and mainteined by MisterAnt.</string>
+    <string name="developer_link_playstore" translatable="false">https://play.google.com/store/search?q=misterant&amp;hl=it</string>
+    <string name="developer_linkedn" translatable="false">https://www.linkedin.com/in/simone-formica-4b464b114/</string>
+    <string name="developer_email" translatable="false">E-mail: misterant.developer@gmail.com</string>
+    <string name="sensitivity_lv">Shake sensibility level</string>
+    <string name="shake_enabled">Shake enabled.</string>
+    <string name="blink_mode">Blink mode</string>
+</resources>

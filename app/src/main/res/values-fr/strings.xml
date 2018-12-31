@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TorchLight</string>
+    <string name="no_flash">Ja regrette ,mais cet appareil n\'a pas le flash.</string>
+    <string name="description">Pour allumer et éteindre la lumière, appuyez sur le bouton en dessus ou agiter l\'appareil.</string>
+    <string name="pause">Dèsactives l\'application en utilizant le mode veille</string>
+    <string name="action_settings">Configurazion</string>
+    <string name="okay">Confirme</string>
+    <string name="viewhelp">View Help</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">Info</string>
+    <string name="welcome">Bienvenu/Bienvenue</string>
+    <string name="navigation_drawer_open" translatable="false">open</string>
+    <string name="navigation_drawer_close" translatable="false">close</string>
+    <!--###HELP###-->
+    <string name="help">Général</string>
+    <string name="help_privacy_heading">Privacy Info</string>
+    <string name="help_permissions_heading">Autorisation camèra</string>
+    <string name="help_permissions_description">L\'autorisation de la camèera es nécessaire pour contrôler le flash de la caméra. Si cette autorisation no se cencède, l\'application no peut marcher correctement.</string>
+    <string name="help_intro">C\'est une application simple pour contrôler le flash. Touchez le bouton sur la page d\'accueil pour allumer et éteindre le flash. Agite l\'appareil ou, si tu prefieres, utilise le widget.</string>
+    <!--###ABOUT###-->
+    <string name="about">About</string>
+    <string name="welcome_text">Cliquer sur le bouton Torche pour activer y desactivèr le flash ou agiter l\'appareil.</string>
+    <string name="description_start_boot">Activer Torchlight a l\'avventure de l\'appareil.</string>
+    <string name="widget_added">Widget ajouté à la page d\'accueil</string>
+    <string name="widget_removed">Widget eliminè de la page d\'accueil</string>
+    <string name="cannot_use_this">No es possible utiliser la torche sans acceder a la caméra.</string>
+    <string name="about_developer">Info dèveloppeur:</string>
+    <string name="developer_description">Developpèe et amintenue por MisterAnt.</string>
+    <string name="developer_link_playstore" translatable="false">https://play.google.com/store/search?q=misterant&amp;hl=it</string>
+    <string name="developer_linkedn" translatable="false">https://www.linkedin.com/in/simone-formica-4b464b114/</string>
+    <string name="developer_email" translatable="false">E-mail: misterant.developer@gmail.com</string>
+    <string name="sensitivity_lv">Secouer le niveau de sensibilité</string>
+    <string name="shake_enabled">Shake activé.</string>
+    <string name="blink_mode">Mode clignotant</string>
+</resources>
